@@ -5,8 +5,8 @@ import { SearchFilter } from './Components/search-filter/search-filter.component
 
 const App = () => {
 
-  const APP_ID = 'dc0fe388';
-  const APP_KEY = '4a6043668869b32e68fa7ee617d21530'
+  const APP_ID = process.env.REACT_APP_ID
+  const APP_KEY = process.env.REACT_APP_KEY
 
   const [recipes, setRecipes] = useState([]); //allows us to put recipes inside of a object with array inside of that
   const [search, setSearch] = useState('');
