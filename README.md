@@ -5,7 +5,10 @@ This app allows the user to view recipes from an API sourced from edamam.com. It
 
 ## How It Was Done
 
-This was built using an API from edamam.com, data is fetched with a simple fetch call using an ID and Key. The frontend uses React with 2 components (Recipe.js and Search-Filter.js). The search features were built in App.js using the methods: e.target.value, a 'for' loop to query a list, and then some filtering of the returned list data. The React Hook 'useEffect' was utilized to query recipe data and speed up the rendering of the array. The recipes are then mapped and rendered using the 'useState' Hook. 
+* This was built using an API from edamam.com, data is fetched with a simple fetch call using an ID and Key. 
+* The frontend uses React with 2 components (Recipe.js and Search-Filter.js). 
+* The search features were built in App.js using the methods: e.target.value, a 'for' loop to query a list, and then some filtering of the returned list data. 
+* The React Hook 'useEffect' was utilized to query recipe data and speed up the rendering of the array. The recipes are then mapped and rendered using the 'useState' Hook. 
 
 ### Starting the app
 1) Clone this repository using ```git clone https://github.com/churchjg/Recipe```

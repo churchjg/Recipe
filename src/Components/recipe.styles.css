@@ -1,5 +1,5 @@
 .recipe {
-    border-radius: 30px;
+    border-radius: 40px;
     padding: 20px 0;
     margin: 20px;
     width: 400px;
@@ -37,7 +37,7 @@
   .image {
     display: block;
     width: 100%;
-    margin: -33% 0;
+    margin: -25% 0;
   }
   
   .calories {
